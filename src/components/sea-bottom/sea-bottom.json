@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sea_bottom_sea_bottoms",
+  "info": {
+    "displayName": "sea_bottom",
+    "icon": "seed"
+  },
+  "options": {},
+  "attributes": {
+    "sand": {
+      "type": "boolean",
+      "default": false
+    },
+    "rocks": {
+      "type": "boolean",
+      "default": false
+    },
+    "coral": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

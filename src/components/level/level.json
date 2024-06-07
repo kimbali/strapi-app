@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_level_levels",
+  "info": {
+    "displayName": "level",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "beginner": {
+      "type": "boolean",
+      "default": false
+    },
+    "intermediate": {
+      "type": "boolean",
+      "default": false
+    },
+    "advanced": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

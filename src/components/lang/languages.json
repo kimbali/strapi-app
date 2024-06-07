@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_lang_languages",
+  "info": {
+    "displayName": "languages",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "es": {
+      "type": "boolean",
+      "default": false
+    },
+    "en": {
+      "type": "boolean",
+      "default": false
+    },
+    "fr": {
+      "type": "boolean",
+      "default": false
+    },
+    "pt": {
+      "type": "boolean",
+      "default": false
+    },
+    "de": {
+      "type": "boolean",
+      "default": false
+    },
+    "nl": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

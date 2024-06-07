@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_services_services",
+  "info": {
+    "displayName": "services",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "wifi": {
+      "type": "boolean",
+      "default": false
+    },
+    "bar": {
+      "type": "boolean",
+      "default": false
+    },
+    "lockers": {
+      "type": "boolean",
+      "default": false
+    },
+    "shop": {
+      "type": "boolean",
+      "default": false
+    },
+    "showers": {
+      "type": "boolean",
+      "default": false
+    },
+    "parking": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

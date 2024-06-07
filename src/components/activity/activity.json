@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_activity_activities",
+  "info": {
+    "displayName": "activity",
+    "icon": "walk"
+  },
+  "options": {},
+  "attributes": {
+    "surf": {
+      "type": "boolean",
+      "default": false
+    },
+    "kitesurf": {
+      "type": "boolean",
+      "default": false
+    },
+    "windsurf": {
+      "type": "boolean",
+      "default": false
+    },
+    "wingfoil": {
+      "type": "boolean",
+      "default": false
+    },
+    "surf_foil": {
+      "type": "boolean",
+      "default": false
+    },
+    "kite_foil": {
+      "type": "boolean",
+      "default": false
+    },
+    "e_foil": {
+      "type": "boolean",
+      "default": false
+    },
+    "bodysurf": {
+      "type": "boolean",
+      "default": false
+    },
+    "SUP": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
