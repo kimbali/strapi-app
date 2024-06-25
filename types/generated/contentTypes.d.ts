@@ -1104,42 +1104,6 @@ export interface ApiEscuelaEscuela extends Schema.CollectionType {
   };
 }
 
-export interface ApiGameGame extends Schema.CollectionType {
-  collectionName: 'games';
-  info: {
-    singularName: 'game';
-    pluralName: 'games';
-    displayName: 'Game';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    title: Attribute.String & Attribute.Required;
-    platform: Attribute.Relation<
-      'api::game.game',
-      'oneToOne',
-      'api::platform.platform'
-    >;
-    price: Attribute.Decimal & Attribute.Required;
-    discount: Attribute.Integer;
-    slug: Attribute.UID<'api::game.game', 'title'> & Attribute.Required;
-    summary: Attribute.Text & Attribute.Required;
-    video: Attribute.String & Attribute.Required;
-    cover: Attribute.Media;
-    wallpaper: Attribute.Media & Attribute.Required;
-    screenshots: Attribute.Media & Attribute.Required;
-    releaseDate: Attribute.Date & Attribute.Required;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<'api::game.game', 'oneToOne', 'admin::user'> &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<'api::game.game', 'oneToOne', 'admin::user'> &
-      Attribute.Private;
-  };
-}
-
 export interface ApiOrderOrder extends Schema.CollectionType {
   collectionName: 'orders';
   info: {
@@ -1227,11 +1191,6 @@ export interface ApiWishlistWishlist extends Schema.CollectionType {
       'oneToOne',
       'plugin::users-permissions.user'
     >;
-    game: Attribute.Relation<
-      'api::wishlist.wishlist',
-      'oneToOne',
-      'api::game.game'
-    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1271,7 +1230,6 @@ declare module '@strapi/types' {
       'api::address.address': ApiAddressAddress;
       'api::destino.destino': ApiDestinoDestino;
       'api::escuela.escuela': ApiEscuelaEscuela;
-      'api::game.game': ApiGameGame;
       'api::order.order': ApiOrderOrder;
       'api::platform.platform': ApiPlatformPlatform;
       'api::wishlist.wishlist': ApiWishlistWishlist;
