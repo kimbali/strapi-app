@@ -28,7 +28,7 @@ export interface LangLanguages extends Schema.Component {
   };
   attributes: {
     es: Attribute.Boolean & Attribute.DefaultTo<false>;
-    en: Attribute.Boolean & Attribute.DefaultTo<false>;
+    gb: Attribute.Boolean & Attribute.DefaultTo<false>;
     fr: Attribute.Boolean & Attribute.DefaultTo<false>;
     pt: Attribute.Boolean & Attribute.DefaultTo<false>;
     de: Attribute.Boolean & Attribute.DefaultTo<false>;

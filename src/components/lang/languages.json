@@ -11,7 +11,7 @@
       "type": "boolean",
       "default": false
     },
-    "en": {
+    "gb": {
       "type": "boolean",
       "default": false
     },
